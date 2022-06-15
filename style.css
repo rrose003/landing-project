@@ -5,6 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    min-height: 100vh;
 }
 
 .section-one {
@@ -205,3 +206,14 @@ figcaption.text {
     border: 1px solid #E5E7EB;
 }
 
+.footer {
+    flex: 1 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+    background-color: #1F2937;
+    color:#E5E7EB;
+}
