@@ -93,15 +93,19 @@ p {
     object-fit: scale-down;
 }
 
-.button-one {
+.button-one, 
+.button-two {
     color:#E5E7EB;
     background-color: #3882F6;
-    border: 1px solid #3882F6;
     border-radius: 5px;
     padding: 8px 14px;
     width: 100px;
     font-weight: 700;
     text-align: center;
+}
+
+.button-one {
+    border: 1px solid #3882F6;
 }
 
 .section-two {
@@ -158,7 +162,7 @@ figcaption.text {
     display: flex;
     flex: 0 1 auto;
     justify-content: center;
-    padding: 0px 80px;
+    padding: 40px 140px 0px;
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
@@ -167,7 +171,37 @@ figcaption.text {
 
 .author {
     text-align: right;
+    font-weight: bold;
     color: #1F2937;
-    margin-bottom: 80px;
-    margin-right: 90px;
+    margin-bottom: 60px;
+    margin-right: 150px;
 }
+
+.section-four {
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    border-radius: 5px;
+    background-color: #3882F6;
+    border: 1px solid #3882F6;
+    padding: 30px 120px;
+}
+
+.action-container {
+    color:#E5E7EB;
+}
+
+.action {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.sign-up {
+    font-weight: lighter;
+}
+
+.button-two {
+    border: 1px solid #E5E7EB;
+}
+
